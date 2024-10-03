@@ -6,3 +6,7 @@ conda activate main-ds
 ```
 pip install streamlit
 ```
+# Menjalankan streamlit
+```
+streamlit run dashboard.py
+```
