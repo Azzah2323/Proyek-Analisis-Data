@@ -1,6 +1,8 @@
 # Mengaktifkan virtual environment
-```conda activate main-ds
+```
+conda activate main-ds
 ```
 # Menginstal streamlit
-```pip install streamlit
+```
+pip install streamlit
 ```
