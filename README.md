@@ -27,5 +27,5 @@ pip install streamlit
 ```
 # Menjalankan streamlit
 ```
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
