@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
-all_df = pd.read_csv("dashboard/all_data.csv")
+all_df = pd.read_csv('dashboard/all_data.csv')
 def create_daily_orders_df(df):
     daily_orders_df = df.resample(rule='D', on='order_date').agg({
         "order_id": "nunique",
